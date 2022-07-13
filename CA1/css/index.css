@@ -1,0 +1,575 @@
+/*  ==================
+    index.css CSS Code
+    ==================    */
+
+
+/*  -------------------
+    Content Grid Layout 
+    ------------------- */
+
+.body {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    font-family: sans-serif;
+}
+
+.personality {
+    grid-row: 8/10;
+    grid-column: 2/12;
+    height: auto;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: auto;
+}
+
+/*  -----------
+    Text Styles 
+    -----------     */
+h1 {
+    margin-left: 1em;
+}
+
+h2 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1em;
+    font-size: 2em;
+}
+
+.title3 > h2 {
+    text-align: center;
+    padding: 5px;
+}
+
+.title4 > h2 {
+    padding: 5px;
+}
+
+.education {
+    margin-left: 1.5em;
+}
+
+.personality > * > h2 {
+    font-size: 1.5em;
+}
+
+
+.values > blockquote > q {
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+.education > ul > li > a {
+    text-decoration: none;
+    color:blue;
+}
+
+.education > ul > li {
+    list-style-type: none;
+    font-size: 1em;
+}
+
+.education > ul > li:first-of-type {
+    margin-bottom: 1.5em;
+}
+
+
+div.text > p {
+    padding: 2em;
+}
+
+.text > p > a {
+    text-decoration: none;
+    color: blue;
+}
+
+.values {
+    margin-left: 2em;
+}
+
+.education > h3#mdis {
+    color: red;
+    margin-left: 2em;
+}
+
+.education > h3#sp {
+    color: red;
+    margin-left: 2em;
+}
+
+
+
+.values > h3#title1 {
+    background-color: rgba(0, 200, 255, 0.5);
+}
+
+.values > h3#title2 {
+    background-color: rgba(0, 200, 255, 0.3);
+}
+
+.values > h3#title3 {
+    background-color: rgba(0, 200, 255, 0.1);
+}
+
+
+
+.education > h3, .values > h3 {
+    padding: 5px;
+}
+
+.education > h3#edtitle1 {
+    background-color: rgba(0, 200, 255, 0.5);
+}
+
+.education > h3#edtitle2 {
+    background-color: rgba(0, 200, 255, 0.4);
+}
+
+.education > h3#edtitle3 {
+    background-color: rgba(0, 200, 255, 0.3);
+}
+
+.education > h3#edtitle4 {
+    background-color: rgba(0, 200, 255, 0.2);
+}
+
+.education > h3#edtitle5 {
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgba(0, 200, 255, 0.1);
+}
+
+
+
+
+div.desc > p {
+    text-align: justify;
+    padding: 0.5em;
+}
+
+div.desc > h3 {
+    text-align: center;
+}
+
+.personality > * > h2 {
+    text-align: center;
+}
+
+.mypersonality, .myrole, .mystrategy {
+    background-color: rgba(90, 201, 235, 0.3);
+}
+
+div.percentage > h3:nth-child(1) {
+    background-color: rgba(90, 201, 235, 0.15);
+}
+
+div.percentage > h3 {
+    text-align: center;
+}
+
+div.percentage#col1 > h3:nth-child(2) {
+    color: #4298b4;
+}
+
+div.percentage#col2 > h3:nth-child(2) {
+    color: #e4ae3a;
+}
+
+div.percentage#col3 > h3:nth-child(2) {
+    color: #33a474;
+}
+
+div.percentage#col4 > h3:nth-child(2) {
+    color: #88619a;
+}
+
+div.percentage#col5 > h3:nth-child(2) {
+    color: #f25e62;
+}
+
+
+div.percentage#col1 > h3 > hr {
+    width: 62%;
+    background-color: #4298b4;
+    float: left;
+}
+
+div.percentage#col2 > h3 > hr {
+    width: 64%;
+    background-color: #e4ae3a;
+    float: left;
+}
+
+div.percentage#col3 > h3 > hr {
+    width: 53%;
+    background-color: #33a474;
+    float: left;
+}
+
+div.percentage#col4 > h3 > hr {
+    width: 51%;
+    background-color: #88619a;
+    float: left;
+}
+
+div.percentage#col5 > h3 > hr {
+    width: 57%;
+    background-color: #f25e62;
+    float: left;
+}
+
+/*  ---------------------
+    Div Layout and Styles
+    --------------------- */
+
+.text {
+    grid-row: 2/4;
+    grid-column: 1/7;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.line2 {
+    grid-row: 1/2;
+    grid-column: 7/13;
+    background-color: rgb(90, 200, 235);
+}
+
+.title {
+    grid-row: 1/2;
+    grid-column: 1/13;
+    background-color: rgb(90, 200, 235);
+}
+
+.title1 {
+    background-color: rgba(79, 176, 206, 0.75);
+    grid-row: 4/5;
+    grid-column: 1/13;
+}
+
+.title2 {
+    grid-row: 4/5;
+    grid-column: 4/7;
+}
+
+.title3 {
+    grid-row: 7/8;
+    grid-column: 1/13;
+    background-color: rgba(90, 201, 235, 0.5);
+}
+
+.title4 {
+    grid-row: 10/11;
+    grid-column: 1/13;
+    background-color: rgba(90, 201, 235, 0.25);
+}
+
+
+
+.values {
+    grid-row: 5/7;
+    grid-column: 1/4;
+}
+
+
+
+.education {
+    grid-row: 5/7;
+    grid-column: 4/7;
+    text-align: justify;
+}
+
+
+.mypersonality {
+    grid-row: 1/2;
+    grid-column: 1/6;
+}
+
+.myrole {
+    grid-row: 1/2;
+    grid-column: 6/11;
+}
+
+.mystrategy {
+    grid-row: 1/2;
+    grid-column: 11/16;
+}
+
+
+
+div.desc#desc1 {
+    grid-row: 2/3;
+    grid-column: 1/6;
+}
+
+div.desc#desc2 {
+    grid-row: 2/3;
+    grid-column: 6/11;
+}
+
+div.desc#desc3 {
+    grid-row: 2/3;
+    grid-column: 11/16;
+}
+
+div.desc#desc4 {
+    grid-row: 4/5;
+    grid-column: 1/4;
+}
+
+div.desc#desc5 {
+    grid-row: 4/5;
+    grid-column: 4/7;
+}
+
+div.desc#desc6 {
+    grid-row: 4/5;
+    grid-column: 7/10;
+}
+
+div.desc#desc7 {
+    grid-row: 4/5;
+    grid-column: 10/13;
+}
+
+div.desc#desc8 {
+    grid-row: 4/5;
+    grid-column: 13/16;
+}
+
+
+
+
+
+div.percentage#col1 {
+    grid-row: 3/4;
+    grid-column: 1/4;
+}
+
+div.percentage#col2 {
+    grid-row: 3/4;
+    grid-column: 4/7;
+}
+
+div.percentage#col3 {
+    grid-row: 3/4;
+    grid-column: 7/10;
+}
+
+div.percentage#col4 {
+    grid-row: 3/4;
+    grid-column: 10/13;
+}
+
+div.percentage#col5 {
+    grid-row: 3/4;
+    grid-column: 13/16;
+}
+
+/*  -----------------------
+    Table Layout and Styles
+    ----------------------- */
+
+.table  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    grid-row: 11/12;
+    grid-column: 1/13;
+    width: 75%;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+table {
+    width: 100%;
+}
+
+
+tbody > tr > td {
+    text-align: center;
+}
+
+
+.table > h3.tableName {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+caption.legend > ul > li {
+    list-style: none;
+    font-size: 1.2em;
+    margin-left: -2em;
+}
+
+caption {
+    text-align: left;
+}
+
+/*  --------------
+    Table Coloring 
+    --------------  */
+
+tr.time > th {
+    background-color: rgba(90, 201, 235, 0.15);
+}
+
+tr.bottom > th {
+    background-color: rgba(90, 201, 235, 0.15);
+}
+
+tr.bottom {
+    visibility: collapse;
+}
+
+tr.days > td {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+tr.days > th {
+    background-color: rgba(90, 201, 235, 0.05);
+}
+
+tr.days > td.FED {
+    background-color: rgba(145, 255, 255, 0.5);
+}
+
+tr.days > td.ECG {
+    background-color: rgba(255, 200, 200, 0.5);
+}
+
+tr.days > td.SFL {
+    background-color: rgba(255, 200, 255, 0.5);
+}
+
+tr.days > td.MATH {
+    background-color: rgba(135, 135, 255, 0.25);
+}
+
+tr.days > td.FOP {
+    background-color: rgba(205, 255, 200, 0.5);
+}
+
+tr.days > td.FOC {
+    background-color: rgba(255, 255, 200, 0.5);
+}
+
+tr.days > td.CAT {
+    background-color: rgba(255, 240, 200, 0.5);
+}
+
+tr.days > td.CPR {
+    background-color: rgba(225, 200, 255, 0.5);
+}
+
+
+caption.legend > ul > li:nth-child(1) {
+    background-color: rgba(255, 240, 200, 0.5);
+    width: 40%;
+}
+
+caption.legend > ul > li:nth-child(2) {
+    background-color: rgba(225, 200, 255, 0.5);
+    width: 40%;
+}
+
+caption.legend > ul > li:nth-child(3) {
+    background-color: rgba(255, 200, 200, 0.5);
+    width: 40%;
+}
+
+caption.legend > ul > li:nth-child(4) {
+    background-color: rgba(145, 255, 255, 0.5);
+    width: 40%;
+}
+
+caption.legend > ul > li:nth-child(5) {
+    background-color: rgba(255, 255, 200, 0.5);
+    width: 40%;
+}
+
+caption.legend > ul > li:nth-child(6) {
+    background-color: rgba(205, 255, 200, 0.5);
+    width: 40%;
+}
+
+caption.legend > ul > li:nth-child(7) {
+    background-color: rgba(135, 135, 255, 0.25);
+    width: 40%;
+}
+
+caption.legend > ul > li:nth-child(8) {
+    background-color: rgba(255, 200, 255, 0.5);
+    width: 40%;
+}
+
+/*  -----------------------
+    Image Sizing and Layout 
+    ----------------------- */
+.img1, .img2 {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.img1 {
+    grid-row: 2/3;
+    grid-column: 7/10;
+}
+
+.img1 > img, .img2 > img, .img3 > img, .img4 > img {
+    width: 100%;
+}
+
+.img2 {
+    grid-row: 2/3;
+    grid-column: 10/13;
+}
+
+.img3 {
+    grid-row: 3/4;
+    grid-column: 7/10;
+}
+
+.img4 {
+    grid-row: 3/4;
+    grid-column: 10/13;
+}
+
+.img5 {
+    grid-row: 5/6;
+    grid-column: 7/13;
+}
+
+.img6 {
+    grid-row: 6/7;
+    grid-column: 7/13;
+}
+
+.img5 > a > img, .img6 > a > img {
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img5, .img6 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+div.body > * > img {
+    border-radius: 1.2em;
+}
